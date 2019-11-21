@@ -19,12 +19,12 @@
         font-weight: bold;
         text-align: center;
         padding: 2rem; }
-    .screen .room .btn-play {
-      background: gray;
-      padding: 1em 2em;
-      font-size: 1em;
-      color: white;
-      font-weight: bold;
-      border: 0; }
+      .screen .room .container-room .btn-play {
+        background: gray;
+        padding: 1em 2em;
+        font-size: 1em;
+        color: white;
+        font-weight: bold;
+        border: 0; }
 
 /*# sourceMappingURL=style.css.map */

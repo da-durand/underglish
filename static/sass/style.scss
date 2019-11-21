@@ -22,15 +22,15 @@
                     text-align: center;
                     padding: 2rem;
                 }   
+                .btn-play{
+                    background: gray;
+                    padding: 1em 2em;
+                    font-size: 1em;
+                    color: white;
+                    font-weight: bold;
+                    border: 0;          
+                }
         }
 
-        .btn-play{
-            background: gray;
-            padding: 1em 2em;
-            font-size: 1em;
-            color: white;
-            font-weight: bold;
-            border: 0;          
-        }
     }
 }
