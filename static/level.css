@@ -1,6 +1,7 @@
 .screen {
   background: black;
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'Permanent Marker', cursive; }
   .screen .room {
     width: 40%;
     position: relative; }
@@ -10,14 +11,64 @@
       background-size: contain;
       display: block;
       padding-bottom: 100%; }
-    .screen .room .container-room {
-      position: absolute;
-      width: 100%;
-      height: 100%; }
-    .screen .room .asriel {
-      float: left;
+    .screen .room .container-level > div, .screen .room .container-level img {
+      position: absolute; }
+    .screen .room .container-level .asriel {
       width: 6%;
-      padding-top: 20rem;
-      margin-left: 20rem; }
+      top: 50%;
+      left: 50%; }
+    .screen .room .container-level .door-1 {
+      top: 81.5%;
+      left: 67.5%;
+      padding: 4.5% 9%;
+      background: rgba(49, 49, 49, 0.466); }
+      .screen .room .container-level .door-1:hover {
+        background: rgba(49, 49, 49, 0.705); }
+    .screen .room .container-level .dialog {
+      bottom: 0;
+      width: 100%;
+      height: 15%;
+      font-size: 1vw;
+      padding: .5em .7em;
+      background: black;
+      color: white;
+      border: white 5px double;
+      display: none; }
+    .screen .room .container-level .fullscreen {
+      height: 100%;
+      width: 100%;
+      display: none; }
+    .screen .room .container-level .lampe {
+      width: 8%;
+      height: 12%;
+      top: 15%;
+      left: 9.6%; }
+    .screen .room .container-level .coffre {
+      width: 9%;
+      height: 7%;
+      top: 23%;
+      left: 23.7%; }
+    .screen .room .container-level .shoes {
+      width: 18.5%;
+      height: 13%;
+      top: 20%;
+      left: 32.5%; }
+    .screen .room .container-level .armoire {
+      width: 14%;
+      height: 23%;
+      top: 13%;
+      left: 53.7%; }
+    .screen .room .container-level .box {
+      width: 11.5%;
+      height: 7.2%;
+      top: 53%;
+      left: 78.7%; }
+    .screen .room .container-level .bed {
+      width: 14%;
+      height: 23%;
+      top: 28%;
+      left: 70.7%; }
+    .screen .room .container-level .object:hover {
+      cursor: pointer; }
 
 /*# sourceMappingURL=level.css.map */
