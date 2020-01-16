@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 
+<script src="./node_modules/jquery/dist/jquery.js"></script>
 <body>
 
     <div class="screen container-fluid p-0 d-flex align-items-center">
@@ -19,30 +20,15 @@
 
             <div class="container-level">
 
-                <img src="./static/asset/asriel/spr_asriel_d_0 (3e copie).png" alt="ERROR" class="asriel">
+                <?php require("bedroom1.php") ?>
+
                 
-                <div class="door-1"></div>
-
-                <div class="dialog">I need my shoes to leave my room</div>
-
-                <div class="lampe object"></div>
-                <div class="coffre object"></div>
-                <div class="shoes object"></div>
-                <div class="armoire object"></div>
-                <div class="bed object"></div>
-                <div class="box object"></div>
-
-                <div class="fullscreen">
-                    
-                </div>
                 
             </div>
 
     </div>
 
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="./static/js/script.js"></script>
 </body>
 
 </html>
