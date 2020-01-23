@@ -84,5 +84,35 @@
         top: 36.5%;
         left: 48.5%;
         padding: 6.5% 4%; }
+      .screen .room .corridor-1 .to-right {
+        width: 5%;
+        height: 19%;
+        top: 49%;
+        left: 95.3%;
+        background: rgba(49, 49, 49, 0.466); }
+        .screen .room .corridor-1 .to-right:hover {
+          background: rgba(49, 49, 49, 0.705); }
+      .screen .room .corridor-1 .to-left {
+        width: 5%;
+        height: 19%;
+        top: 49%;
+        left: 0%;
+        background: rgba(49, 49, 49, 0.466); }
+        .screen .room .corridor-1 .to-left:hover {
+          background: rgba(49, 49, 49, 0.705); }
+      .screen .room .corridor-1 .flower.left {
+        width: 11%;
+        height: 17%;
+        top: 35%;
+        left: 60.2%; }
+        .screen .room .corridor-1 .flower.left:hover {
+          cursor: pointer; }
+      .screen .room .corridor-1 .flower.center {
+        width: 6%;
+        height: 15%;
+        top: 30%;
+        left: 0%; }
+        .screen .room .corridor-1 .flower.center:hover {
+          cursor: pointer; }
 
 /*# sourceMappingURL=level.css.map */

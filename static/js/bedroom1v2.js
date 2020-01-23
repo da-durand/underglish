@@ -57,12 +57,7 @@ $(document).ready(function(){
         $(".dialog").css("display", "block");
         dialogEnable = true;
         $(".fullscreen").css("display", "block");
-        if (shoes == false) {
-            $(".dialog").html("Yes I'm ready to go!");
-            shoes = true;
-        } else {
             $(".dialog").html("I've already my shoes!");
-        }
 
 
     })

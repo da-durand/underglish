@@ -16,4 +16,47 @@
         padding: 6.5% 4%;
     }
 
+    .to-right {
+        width: 5%;
+        height: 19%;
+        top: 49%;
+        left: 95.3%;
+        background: rgba(49, 49, 49, 0.466);
+        &:hover{
+            background: rgba(49, 49, 49, 0.705);
+        }
+    }
+
+    .to-left {
+        width: 5%;
+        height: 19%;
+        top: 49%;
+        left: 0%;
+        background: rgba(49, 49, 49, 0.466);
+        &:hover{
+            background: rgba(49, 49, 49, 0.705);
+        }
+    }
+
+    .flower {
+        &.left {
+            width: 11%;
+            height: 17%;
+            top: 35%;
+            left: 60.2%;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        &.center {
+            width: 6%;
+            height: 15%;
+            top: 30%;
+            left: 0%;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
 }

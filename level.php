@@ -12,7 +12,6 @@
 </head>
 
 <script src="./node_modules/jquery/dist/jquery.js"></script>
-<script src="static/js/asriel.js"></script>
 <body>
 
     <div class="screen container-fluid p-0 d-flex align-items-center">
@@ -23,6 +22,7 @@
 
                 <?php require("bedroom1.php") ?>
 
+                <?php //require("corridor-1.php") ?>
 
                 
                 
