@@ -1,8 +1,8 @@
-<div class="container-level bedroom-1">
+<div class="container-level corridor-1">
     
     <img src="./static/asset/asriel/spr_asriel_d_0 (3e copie).png" alt="ERROR" class="asriel">
                     
-                    <div class="door-1"></div>
+                    <div class="object door-1"></div>
     
                     <div class="dialog"></div>
     
@@ -16,7 +16,7 @@
                     <div class="fullscreen">
                         
                     </div>
-    
-    <script src="static/js/bedroom1.js"></script>
+
+    <script src="static/js/corridor-1.js"></script>
                 
 </div>

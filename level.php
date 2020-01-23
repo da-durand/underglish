@@ -12,22 +12,23 @@
 </head>
 
 <script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="static/js/asriel.js"></script>
 <body>
 
     <div class="screen container-fluid p-0 d-flex align-items-center">
 
         <div class="room m-auto">
 
-            <div class="container-level">
+            <!-- <div class="container-level"> -->
 
                 <?php require("bedroom1.php") ?>
 
+
                 
                 
-            </div>
+            <!-- </div> -->
 
     </div>
-
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 

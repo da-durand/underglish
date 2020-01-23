@@ -1,19 +1,13 @@
 $(document).ready(function(){
     var light = false;
     var dialogEnable = false;
-    var shoes = false;
+
 
     $(".door-1").click(function(){
-        if (shoes == false) {
-            $(".dialog").css("display", "block");
-            $(".dialog").html("I need my shoes to leave my room");
-            dialogEnable = true;
-            $(".fullscreen").css("display", "block");
-        } else {
-            $.get("corridor-1.php", function (data) {
-                $('.room').html(data);
-            })
-        }
+        
+        $.get("corridor-1.php", function (data) {
+            $('.room').html(data);
+        })
 
     })
 

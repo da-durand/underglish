@@ -17,6 +17,6 @@
                         
                     </div>
     
-    <script src="static/js/bedroom1.js"></script>
+    <script src="static/js/bedroom1v2.js"></script>
                 
 </div>
