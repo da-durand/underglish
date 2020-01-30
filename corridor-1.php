@@ -3,6 +3,8 @@
     <img src="./static/asset/asriel/spr_asriel_d_0 (3e copie).png" alt="ERROR" class="asriel">
                     
                     <div class="object door-1 left"></div>
+                    <div class="object door-2 center"></div>
+                    <div class="object door-3 right"></div>
     
                     <div class="dialog"></div>
     

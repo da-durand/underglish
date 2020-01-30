@@ -20,9 +20,9 @@
 
             <!-- <div class="container-level"> -->
 
-                <?php require("bedroom1.php") ?>
+                <?php //require("bedroom1.php") ?>
 
-                <?php //require("corridor-1.php") ?>
+                <?php require("corridor-1.php") ?>
 
                 
                 

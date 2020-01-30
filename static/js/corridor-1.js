@@ -5,6 +5,19 @@ $(document).ready(function(){
             $('.room').html(data);
         })
     })
+
+    // ROOM A CREER
+    // $(".door-2").click(function(){
+    //     $.get("bedroom1v2.php", function (data) {
+    //         $('.room').html(data);
+    //     })
+    // })
+
+    $(".door-3").click(function(){
+        $.get("bedroom3.php", function (data) {
+            $('.room').html(data);
+        })
+    })
     
     if($(".corridor-1").css("background-position", "left")){
         $(".center").css("display", "none");

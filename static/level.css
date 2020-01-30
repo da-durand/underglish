@@ -25,6 +25,53 @@
       cursor: pointer; }
     .screen .room .asriel {
       width: 6%; }
+    .screen .room .bedroom-3 {
+      background-image: url("asset/background/bg_torielroom.png"); }
+      .screen .room .bedroom-3 .asriel {
+        width: 6%;
+        top: 50%;
+        left: 50%; }
+      .screen .room .bedroom-3 .door-1 {
+        top: 81.5%;
+        left: 67.5%;
+        padding: 4.5% 9%;
+        background: rgba(49, 49, 49, 0.466); }
+        .screen .room .bedroom-3 .door-1:hover {
+          background: rgba(49, 49, 49, 0.705); }
+      .screen .room .bedroom-3 .fullscreen {
+        height: 100%;
+        width: 100%;
+        display: none; }
+      .screen .room .bedroom-3 .lamp {
+        width: 8%;
+        height: 12%;
+        top: 15%;
+        left: 9.6%; }
+      .screen .room .bedroom-3 .chest {
+        width: 9%;
+        height: 7%;
+        top: 23%;
+        left: 23.7%; }
+      .screen .room .bedroom-3 .shoes {
+        width: 18.5%;
+        height: 13%;
+        top: 20%;
+        left: 32.5%; }
+      .screen .room .bedroom-3 .wardrobe {
+        width: 14%;
+        height: 23%;
+        top: 13%;
+        left: 53.7%; }
+      .screen .room .bedroom-3 .box {
+        width: 11.5%;
+        height: 7.2%;
+        top: 53%;
+        left: 78.7%; }
+      .screen .room .bedroom-3 .bed {
+        width: 14%;
+        height: 23%;
+        top: 28%;
+        left: 70.7%; }
     .screen .room .bedroom-1 {
       background-image: url("asset/background/bg_asrielroom.png"); }
       .screen .room .bedroom-1 .asriel {
@@ -80,7 +127,7 @@
       .screen .room .corridor-1 .asriel {
         top: 50%;
         left: 50%; }
-      .screen .room .corridor-1 .door-1 {
+      .screen .room .corridor-1 .door-1, .screen .room .corridor-1 .door-2, .screen .room .corridor-1 .door-3 {
         top: 36.5%;
         left: 48.5%;
         padding: 6.5% 4%; }
